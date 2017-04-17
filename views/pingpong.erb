@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Ping-Pong Factor Detector</title>
+</head>
+<body>
+  <div class="container">
+    <div class-"row">
+      <div class="col-md-12 banrclr">
+        <h1>Ping-Pong</h1>
+      </div>
+      <div class="col-md-12 sep">
+      </div>
+      <div class="col-md-3 infobx">
+        <h4>About Ping Ping</h4>
+        <div class="invbox">
+          <h5>Created by:</h5>
+          <br>
+          <p>Elan Baharie</p>
+        </div>
+        <div class="invbox">
+          <h5>GitHub Username/URL</h5>
+          <br>
+          <p>elan0baharie</p>
+        </div>
+        <div class="invbox">
+          <h5>Level 1 Test for:</h5>
+          <br>
+          <p>Javascript/ jQuery</p>
+        </div>
+      </div><!--About Ping Pong Div-->
+      <div class="col-md-9 sepclr">
+        <h3>Let's Play</h4>
+        <div>
+        <span class="mainhd">
+          <strong>Rules:</strong>
+          <br>
+          <br>
+          Ping Pong will count up to your number from 1 with the following exceptions:
+        </span>
+        <ol>
+          <li>Numbers divisible by 3 become "ping"</li>
+          <li>Numbers divisible by 5 become "pong"</li>
+          <li>Numbers divisible by 3 &amp; 5 become "ping-pong"</li>
+        </ol>
+        <form action="/formcalc" method="get" id="userNumber">
+          <label for="nope">Enter Your Number Here:</label>
+          <input id="nope" name="nope" type="text">
+          <button id="submitBtn" type="submit">Ping Pong!</button>
+        </form>
+        <ul id="rngList">
+        </ul>
+        </div>
+      </div><!--Let's Play div-->
+    </div>
+  </div><!--Container Div-->
+</body>
+</html>
